@@ -7,12 +7,12 @@
 
 Execution:
 - Create a conda environment using following command:
-  conda create -n eda_test python=3.8
+  `conda create -n <Your Conda Env Name> python=3.8`
 
 - activate your env using:
-  conda activate eda_test
+  `conda activate <Your Conda Env Name>`
 - install ipykernal package using command:
-  pip install ipykernel
+  `pip install ipykernel`
 
 - Direct to folder /MDD/app and open jupyter notebook "image_classification.ipynb".
 - Make sure your Linux-64 supports docker, docker-compose, and curl command.
